@@ -61,10 +61,6 @@ body {
   animation: 0.3s ease-in-out;
 }
 
-.slide4 {
-  background-color: green;
-}
-
 .slider-item-img.slide1 {
   background-image: url(./assets/1.jpg);
 }
@@ -75,6 +71,10 @@ body {
 
 .slider-item-img.slide3 {
   background-image: url(./assets/3.png);
+}
+
+.slider-item-img.slide4 {
+  background-image: url(./assets/4.png);
 }
 
 .slider-item-img.slide5 {
