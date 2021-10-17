@@ -61,15 +61,6 @@ body {
   animation: 0.3s ease-in-out;
 }
 
-
-.slide2 {
-  background-color: orange;
-}
-
-.slide3 {
-  background-color: yellow;
-}
-
 .slide4 {
   background-color: green;
 }
@@ -80,6 +71,14 @@ body {
 
 .slider-item-img.slide1 {
   background-image: url(./assets/1.jpg);
+}
+
+.slider-item-img.slide2 {
+  background-image: url(./assets/2.png);
+}
+
+.slider-item-img.slide3 {
+  background-image: url(./assets/3.png);
 }
 
 .slider-bottom,
