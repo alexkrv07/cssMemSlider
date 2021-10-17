@@ -8,7 +8,7 @@ body {
 
 .main {
   padding: 2vh 0;
-  background-color: #c0c0c0;
+  background-color: rgb(3, 3, 3);
 }
 
 .container {
@@ -22,7 +22,7 @@ body {
   width: calc(100% - 20px);
   height: 90vh;
   margin: 2vh auto;
-  background-color: #c0c0c0;
+  background-color: rgb(3, 3, 3);
 }
 
 .slider > input {
@@ -47,12 +47,9 @@ body {
   height: 70vh;
   margin: 0 auto;
   border-radius: 10px;
-  /* background-color: #0d4172; */
 }
 
-/* .slider-container-text {
-  background-color: #19720d;
-} */
+
 
 .slider-item-img {
   position: relative;
@@ -64,9 +61,6 @@ body {
   animation: 0.3s ease-in-out;
 }
 
-/* .slide1 {
-  background-color: red;
-} */
 
 .slide2 {
   background-color: orange;
@@ -105,6 +99,7 @@ body {
   min-width: 50vw;
   width: 50%;
   min-height: 5vh;
+  color: #fff;
   animation: 0.3s ease-in-out;
 }
 
@@ -138,12 +133,12 @@ body {
 }
 
 .outer {
-  background-color: blue;
+  background-color: #a0b7e2;
 }
 
 
 .label:hover .outer{
-  background-color: rgb(0, 225, 255);
+  background-color: #fff;
 }
 
 #slide1:checked ~ .slider-bottom .controls-item:nth-of-type(1) .label .outer,
@@ -151,7 +146,7 @@ body {
 #slide3:checked ~ .slider-bottom .controls-item:nth-of-type(3) .label .outer,
 #slide4:checked ~ .slider-bottom .controls-item:nth-of-type(4) .label .outer,
 #slide5:checked ~ .slider-bottom .controls-item:nth-of-type(5) .label .outer {
-  border: 2px solid blue;
+  border: 2px solid #fff;
   background-color: transparent;
 }
 
