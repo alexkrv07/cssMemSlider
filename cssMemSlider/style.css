@@ -65,10 +65,6 @@ body {
   background-color: green;
 }
 
-.slide5 {
-  background-color: blue;
-}
-
 .slider-item-img.slide1 {
   background-image: url(./assets/1.jpg);
 }
@@ -79,6 +75,10 @@ body {
 
 .slider-item-img.slide3 {
   background-image: url(./assets/3.png);
+}
+
+.slider-item-img.slide5 {
+  background-image: url(./assets/5.png);
 }
 
 .slider-bottom,
